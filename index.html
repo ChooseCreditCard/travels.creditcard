@@ -2,174 +2,148 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Travels.Creditcard – Travel Credit Cards (FX, Lounge & Insurance)</title>
+  <title>Travels.Creditcard – Travel Credit Card Hub (FX, Lounge, Insurance)</title>
   <meta name="description"
-        content="Travels.Creditcard is the travel spoke of The CreditCard Collection. See which credit cards are best for FX fees, airport lounges and bundled travel insurance – then compare all on Choose.Creditcard.">
+        content="Travels.Creditcard is the travel hub of The CreditCard Collection. Start here if you care about FX fees, airport lounge access and bundled travel insurance – then compare all cards on Choose.Creditcard." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://travels.creditcard/" />
 
-  <!-- SEO -->
-  <meta name="keywords"
-        content="travel credit card, best travel cards, no foreign fees, airport lounge access, travel insurance, travels.creditcard, choose.creditcard">
-
   <!-- Open Graph -->
-  <meta property="og:title" content="Travels.Creditcard – Travel Credit Cards" />
+  <meta property="og:title" content="Travels.Creditcard – Travel Credit Card Hub" />
   <meta property="og:description"
-        content="Compare travel-focused credit cards for FX fees, airport lounge access and included travel insurance via The CreditCard Collection." />
-  <meta property="og:url" content="https://travels.creditcard/" />
+        content="See which credit cards are best for travel: FX fees, lounges and insurance. Then deep-dive on Choose.Creditcard." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://travels.creditcard/" />
   <meta property="og:image" content="https://travels.creditcard/preview.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Travels.Creditcard – Travel Credit Cards" />
+  <meta name="twitter:title" content="Travels.Creditcard – Travel Credit Card Hub" />
   <meta name="twitter:description"
-        content="The travel hub of The CreditCard Collection. Start here, then compare all cards on Choose.Creditcard." />
+        content="Travel-focused credit card hub in The CreditCard Collection. Powered by ronarn." />
   <meta name="twitter:image" content="https://travels.creditcard/preview.png" />
 
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Shared stylesheet (same stil som choose.creditcard) -->
+  <link rel="stylesheet" href="/styles.css" />
 
   <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-64FE63JQ3H', {
-      'page_title': 'Travels.Creditcard – Travel cards hub',
-      'page_path': '/travel-cards'
+      'page_title': 'Travels.Creditcard – Travel hub',
+      'page_path': '/travel-hub'
     });
   </script>
 </head>
-<body class="bg-slate-950 text-slate-100">
-  <!-- Header -->
-  <header class="border-b border-slate-800/60 bg-slate-950/70 backdrop-blur sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center gap-2">
-        <div class="h-8 w-8 rounded-full bg-sky-500/80 flex items-center justify-center text-xs font-bold">
-          CC
-        </div>
-        <span class="font-semibold tracking-tight">Travels.Creditcard</span>
-      </div>
-      <nav class="hidden md:flex gap-6 text-sm text-slate-300">
-        <a href="https://fin.creditcard" class="hover:text-white">Collection hub</a>
-        <a href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=nav&utm_campaign=travel_spoke"
-           class="hover:text-white">
-          Compare all cards
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="https://choose.creditcard/">
+        The CreditCard Collection
+      </a>
+      <nav class="site-nav">
+        <a href="https://fin.creditcard/?utm_source=travels.creditcard&utm_medium=nav&utm_campaign=travel_hub">
+          fin.creditcard
+        </a>
+        <a href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=nav&utm_campaign=travel_hub">
+          Choose card
         </a>
       </nav>
-      <a href="mailto:support@ronarn.com"
-         class="text-xs md:text-sm bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold rounded-lg px-3 py-1.5 transition">
-        Contact
-      </a>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="max-w-6xl mx-auto px-4 pt-10 pb-12">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <div>
-        <p class="text-xs uppercase tracking-[0.3em] text-sky-300 mb-4">
-          The CreditCard Collection · Travel
-        </p>
-        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-4">
-          Travel smarter with<br class="hidden md:block" />
-          <span class="text-sky-300">the right credit card.</span>
-        </h1>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          Some cards kill you on FX fees. Others give you airport lounge access, or bundle strong travel insurance
-          – but with fine print. Travels.Creditcard is the travel spoke of
-          <span class="text-sky-300">The CreditCard Collection</span> and points you straight to the detailed
-          comparison on <span class="text-sky-300">Choose.Creditcard</span>.
-        </p>
-        <div class="flex flex-wrap gap-3">
-          <a href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=button&utm_campaign=travel_spoke&utm_content=primary"
-             class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold rounded-lg px-4 py-2 text-sm transition">
-            Go to full travel card comparison
-          </a>
-          <a href="https://fin.creditcard/?utm_source=travels.creditcard&utm_medium=link&utm_campaign=travel_spoke"
-             class="text-sm text-slate-200 hover:text-white underline underline-offset-4">
-            Explore the full CreditCard Collection
-          </a>
-        </div>
-        <p class="mt-4 text-xs text-slate-500">
-          Independent domain collection by ronarn · Not issued by any bank or card network.
-        </p>
+  <main class="page wrap">
+    <section class="hero">
+      <p class="eyebrow">Travel · Credit cards · 2025</p>
+      <h1>Travels.Creditcard – start here if you travel with plastic.</h1>
+      <p class="lead">
+        Some cards punish you on foreign transaction fees. Others quietly include airport lounges
+        or proper travel insurance — but with a lot of fine print.
+        <strong>Travels.Creditcard</strong> is the travel spoke of
+        <strong>The CreditCard Collection</strong>.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary"
+           href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=button&utm_campaign=travel_hub&utm_content=primary">
+          Go to full comparison on Choose.Creditcard
+        </a>
+        <a class="button ghost"
+           href="https://fin.creditcard/?utm_source=travels.creditcard&utm_medium=button&utm_campaign=travel_hub&utm_content=collection">
+          Explore the full CreditCard Collection
+        </a>
       </div>
 
-      <!-- Highlights card -->
-      <div class="bg-slate-900/30 border border-slate-800 rounded-2xl p-6 md:p-8">
-        <p class="text-slate-300 text-sm mb-3">What we focus on</p>
-        <ul class="space-y-2 text-sm">
-          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg">
-            <span>0% FX fee cards</span>
-            <a class="text-sky-300 text-xs"
-               href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=chip&utm_campaign=travel_spoke&utm_content=fx">
-              View on Choose
-            </a>
-          </li>
-          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg">
-            <span>Airport lounge access</span>
-            <a class="text-sky-300 text-xs"
-               href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=chip&utm_campaign=travel_spoke&utm_content=lounge">
-              View on Choose
-            </a>
-          </li>
-          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg">
-            <span>Bundled travel insurance</span>
-            <a class="text-sky-300 text-xs"
-               href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=chip&utm_campaign=travel_spoke&utm_content=insurance">
-              View on Choose
-            </a>
-          </li>
-        </ul>
-        <p class="text-[10px] text-slate-500 mt-4">
-          Always check the official card issuer’s terms, coverage limits and country availability before applying.
+      <p class="meta">
+        Independent domain collection by ronarn · Not a bank, issuer or card network. Always check
+        official issuer terms before applying.
+      </p>
+    </section>
+
+    <section class="grid-3">
+      <article class="card">
+        <h2>No foreign transaction fees</h2>
+        <p>
+          Cards that <strong>don’t charge 2–3% FX markup</strong> on every trip. Ideal if you
+          spend a lot abroad or online in other currencies.
         </p>
-      </div>
+        <a href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=card&utm_campaign=travel_hub&utm_content=fx"
+           class="text-link">
+          Filter for low-FX travel cards on Choose →
+        </a>
+      </article>
+
+      <article class="card">
+        <h2>Airport lounge access</h2>
+        <p>
+          Priority Pass, fast track and premium travel cards that
+          <strong>actually get you into lounges</strong> – not just marketing fluff.
+        </p>
+        <a href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=card&utm_campaign=travel_hub&utm_content=lounge"
+           class="text-link">
+          See lounge-oriented cards on Choose →
+        </a>
+      </article>
+
+      <article class="card">
+        <h2>Travel & cancellation insurance</h2>
+        <p>
+          Cards that bundle <strong>medical, trip delay and cancellation coverage</strong>.
+          Always read the policy and country limitations carefully.
+        </p>
+        <a href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=card&utm_campaign=travel_hub&utm_content=insurance"
+           class="text-link">
+          Jump to insurance-heavy cards on Choose →
+        </a>
+      </article>
+    </section>
+
+    <section class="note">
+      <h3>How Travels.Creditcard fits into the collection</h3>
+      <p>
+        Think of <strong>Travels.Creditcard</strong> as a simple entry point for people who
+        only care about <em>travel benefits</em>. The deep, structured comparison lives on
+        <a href="https://choose.creditcard/?utm_source=travels.creditcard&utm_medium=inline&utm_campaign=travel_hub">
+          Choose.Creditcard
+        </a>, where cards can be ranked and filtered across many dimensions — not just travel.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap small">
+      <p>
+        Part of <strong>The CreditCard Collection</strong> · operated by ronarn ·
+        Contact: <a href="mailto:support@ronarn.com">support@ronarn.com</a>
+      </p>
     </div>
-  </section>
-
-  <!-- Simple category tiles that also just deep-link to Choose -->
-  <section class="max-w-6xl mx-auto px-4 pb-16">
-    <h2 class="text-xl font-semibold mb-4">Travel card angles we care about</h2>
-    <p class="text-slate-400 text-sm mb-4">
-      Use these as starting points, then dive into the full comparison on Choose.Creditcard.
-    </p>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4 group"
-         href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=tile&utm_campaign=travel_spoke&utm_content=no-foreign-fees">
-        <h3 class="font-semibold group-hover:text-sky-300">No foreign transaction fees</h3>
-        <p class="text-xs text-slate-400 mt-2">
-          Cards optimised for spending abroad and online in other currencies.
-        </p>
-      </a>
-
-      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4 group"
-         href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=tile&utm_campaign=travel_spoke&utm_content=lounge">
-        <h3 class="font-semibold group-hover:text-sky-300">Airport lounge access</h3>
-        <p class="text-xs text-slate-400 mt-2">
-          Priority Pass, fast track and lounge-heavy premium cards.
-        </p>
-      </a>
-
-      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4 group"
-         href="https://choose.creditcard/compare?utm_source=travels.creditcard&utm_medium=tile&utm_campaign=travel_spoke&utm_content=insurance">
-        <h3 class="font-semibold group-hover:text-sky-300">Travel & cancellation insurance</h3>
-        <p class="text-xs text-slate-400 mt-2">
-          Including medical coverage, trip delay and rental car protection.
-        </p>
-      </a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
-    Part of <span class="text-slate-200">The CreditCard Collection</span> · built by
-    <span class="text-slate-200">ronarn</span> ·
-    Contact: <a href="mailto:support@ronarn.com" class="underline underline-offset-4">support@ronarn.com</a>
   </footer>
 </body>
 </html>
